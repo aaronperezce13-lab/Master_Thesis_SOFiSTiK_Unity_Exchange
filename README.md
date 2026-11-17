@@ -35,7 +35,7 @@ To execute the complete workflow, ensure the following tools are installed:
 - Unity Hub & Unity Editor (configured with XR Interaction Toolkit and OpenXR)
 - Meta Quest 3 (or compatible OpenXR headset) for standalone VR deployment (optional: can also be tested directly in the Unity Editor via the XR Device Simulator, turn off simulator GameObject to use real VR lenses)
 
-## Step-by-Step Execution WorkflowStep 0: 
+## Step-by-Step Execution Workflow 
 # Step 0: Configure Project Paths (First-Time Setup or New Project)
 Before running the pipeline on a new machine or with a different structural model:
 - Navigate to 2. ICDD Container and Config/config_files/ and open Config.yaml.
