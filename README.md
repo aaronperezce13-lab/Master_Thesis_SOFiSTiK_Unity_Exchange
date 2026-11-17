@@ -54,4 +54,5 @@ Before running the pipeline on a new machine or with a different structural mode
 - Standalone Headset Deployment: Before generating the Buld or running the app go to hierarchy of objects in Scene and turn off the "XR Device Simulator".
 
 ## Author
-Aaron Perez HerreraM.Sc. Digital Engineering — Bauhaus-Universität Weimar
+Aaron Perez Herrera
+M.Sc. Digital Engineering — Bauhaus-Universität Weimar
