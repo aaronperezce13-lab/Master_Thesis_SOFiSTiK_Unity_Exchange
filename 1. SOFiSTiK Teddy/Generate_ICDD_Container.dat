@@ -1,0 +1,22 @@
+$ --------------------------------------------------------------------------------------------------------
+$ Script: Generate_ICDD_Container.dat
+$ Author: Aaron Perez Herrera
+$ Description: This code automatically triggers the export of geometric and semantic data and linkage
+$              information, as well as the assembly of the ICDD container, in accordance with the ISO
+$              21597 standard.
+$ --------------------------------------------------------------------------------------------------------
+
+$ Export the geometry in IFC format with IFC2x3 Coordination View
+$ Elements to change when changing project
+$ --in: Path and name of Current project .cdb file
+$ --out: Path and name of expected .ifc file generated
++SYS sof_ifcexport.exe --in "C:\Users\aaron\Desktop\Tesis con Gustavo - Structural Export\1. Sofistik Model\Steel Frame - Final\Steel_Frame_Final.cdb" --out "C:\Users\aaron\Desktop\Tesis con Gustavo - Structural Export\3. ICDD pipeline\output\SteelFrame_CV_final.ifc" --view coordination --schema ifc2x3
+
+$ Execute python code for generating the ICDD Container
+$ Only change this path if python code changes location
++SYS python "C:\Users\aaron\Desktop\Tesis con Gustavo - Structural Export\3. ICDD pipeline\export_semantic_data.py"
++SYS python "C:\Users\aaron\Desktop\Tesis con Gustavo - Structural Export\3. ICDD pipeline\map_geom_with_sem.py"
++SYS python "C:\Users\aaron\Desktop\Tesis con Gustavo - Structural Export\3. ICDD pipeline\build_link_content_rdf.py"
++SYS python "C:\Users\aaron\Desktop\Tesis con Gustavo - Structural Export\3. ICDD pipeline\build_index_rdf.py"
++SYS python "C:\Users\aaron\Desktop\Tesis con Gustavo - Structural Export\3. ICDD pipeline\pack_icdd.py"
++SYS python "C:\Users\aaron\Desktop\Tesis con Gustavo - Structural Export\3. ICDD pipeline\export_Unity_manifest.py"

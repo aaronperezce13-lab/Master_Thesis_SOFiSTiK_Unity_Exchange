@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ct="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#SteelFrame_CV_Final.ifc">
+    <rdf:type rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument"/>
+    <ct:filename>Payload documents/SteelFrame_CV_Final.ifc</ct:filename>
+    <ct:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/x-step</ct:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#Shear_Force_Y.csv">
+    <rdf:type rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument"/>
+    <ct:filename>Payload documents/Shear_Force_Y.csv</ct:filename>
+    <ct:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">text/csv</ct:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#Bending_Moment_Y.csv">
+    <rdf:type rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument"/>
+    <ct:filename>Payload documents/Bending_Moment_Y.csv</ct:filename>
+    <ct:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">text/csv</ct:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#Normal_Force.csv">
+    <rdf:type rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument"/>
+    <ct:filename>Payload documents/Normal_Force.csv</ct:filename>
+    <ct:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">text/csv</ct:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#Bending_Moment_Z.csv">
+    <rdf:type rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument"/>
+    <ct:filename>Payload documents/Bending_Moment_Z.csv</ct:filename>
+    <ct:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">text/csv</ct:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#Link-Content.rdf">
+    <rdf:type rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Linkset"/>
+    <ct:filename>Payload triples/Link-Content.rdf</ct:filename>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#ContainerDescription">
+    <rdf:type rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ContainerDescription"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container.rdf"/>
+    <ct:conformanceIndicator>ICDD-Part1-Container</ct:conformanceIndicator>
+    <ct:containsDocument rdf:resource="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#SteelFrame_CV_Final.ifc"/>
+    <ct:containsDocument rdf:resource="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#Bending_Moment_Y.csv"/>
+    <ct:containsDocument rdf:resource="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#Bending_Moment_Z.csv"/>
+    <ct:containsDocument rdf:resource="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#Normal_Force.csv"/>
+    <ct:containsDocument rdf:resource="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#Shear_Force_Y.csv"/>
+    <ct:containsDocument rdf:resource="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#Shear_Force_Z.csv"/>
+    <ct:containsLinkset rdf:resource="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#Link-Content.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aaron.bauhaus-weimar.de/icdd/MasterThesis#Shear_Force_Z.csv">
+    <rdf:type rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument"/>
+    <ct:filename>Payload documents/Shear_Force_Z.csv</ct:filename>
+    <ct:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">text/csv</ct:format>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,31 @@
+# CONFIGURATION FILE FOR THE PYTHON SCRIPTS
+# -----------------------------------------
+# SOFISTIK APP DATA
+# Location of the SOFiSTiK installation folder
+InstallationPath: 'C:\Program Files\SOFiSTiK\2024\SOFiSTiK 2024'
+# Location current project and name of current .cdb file
+pathCBD: 'C:\Users\aaron\Desktop\Tesis con Gustavo - Structural Export\1. Sofistik Model\Steel Frame - Final\Steel_Frame_Final.cdb'
+# LoadCases to be exported to CSV files
+LoadCasesNumber: [1, 2, 3, 4, 1001]
+# Number of decimal places to round the coordinates and forces in Results DataFrames
+RoundVal: 6
+
+
+# IFC FILE CONFIGURATIONS
+# Property set name in the IFC file to be extracted
+P_set_name: 'SOFiSTiK_P-Set'
+# Property name in the IFC file to be extracted
+Prop_name: 'Member Id'
+# Ifc file name
+ifc_name: 'SteelFrame_CV_Final.ifc'
+
+
+# ICCD Information Container (ICCD) specific configuration parameters
+# Unique name for the ICCD Information Container, which will be used as a base URI for the RDF resources
+Base: 'https://aaron.bauhaus-weimar.de/icdd/MasterThesis#'
+# linkset namespace according to ISO 21597-1
+ls: 'https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#'
+# container namespace according to ISO 21597-1
+ct: 'https://standards.iso.org/iso/21597/-1/ed-1/en/Container#'
+# Path to Store the ICCD Information Container (ICCD) in Turtle format
+ICCD_path: 'C:\Users\aaron\Desktop\Tesis con Gustavo - Structural Export\2. VR Model (Unity)\Assets\Resources'
